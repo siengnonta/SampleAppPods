@@ -1,0 +1,31 @@
+PODS:
+  - AmityUIKit (2.11.0):
+    - Realm (~> 10.21.1)
+  - Realm (10.21.1):
+    - Realm/Headers (= 10.21.1)
+  - Realm/Headers (10.21.1)
+
+DEPENDENCIES:
+  - AmityUIKit (from `https://github.com/siengnonta/Amity-Social-Cloud-UIKit-iOS.git`, tag `2.11.0`)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+
+EXTERNAL SOURCES:
+  AmityUIKit:
+    :git: https://github.com/siengnonta/Amity-Social-Cloud-UIKit-iOS.git
+    :tag: 2.11.0
+
+CHECKOUT OPTIONS:
+  AmityUIKit:
+    :git: https://github.com/siengnonta/Amity-Social-Cloud-UIKit-iOS.git
+    :tag: 2.11.0
+
+SPEC CHECKSUMS:
+  AmityUIKit: c1754692868a9e33473f26fce8a1e28e62603818
+  Realm: 44b41c3ae39e3ecfded71a04434bfde066c7b317
+
+PODFILE CHECKSUM: b3f83771a4e30b691bf25761176d130d911c1048
+
+COCOAPODS: 1.11.2
