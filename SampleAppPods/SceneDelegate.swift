@@ -5,6 +5,7 @@
 //  Created by Eko Developer on 22/2/2565 BE.
 //
 
+import AmityUIKit
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -17,6 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        AmityUIKitManager.setup(apiKey: "b3babb5e32dbf2314935d81e0301438fd85b84b7b2316a2e")
+        AmityUIKitManager.registerDevice(withUserId: "victimIOS", displayName: "victimIOS")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
